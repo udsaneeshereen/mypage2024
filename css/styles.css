@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap');
+
+html,body {
+    background-color: #F0D1E7;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+/* Start Header */
+header {
+    background-color: #822B68;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    list-style: none;  
+}
+
+li{
+    margin-right: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.logo {
+    margin: auto 10px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-name {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-left: 16px;
+}
+
+/* End Header */
+
+
+/* Start nmain-content */
+
+.main-content {
+    
+    /* background-color: rgb(150, 150, 150); */
+    width: 80%;
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.box {
+    background-color: white;
+    border-radius: 10px;
+
+    padding: 20px;
+    margin: 30px ; 
+}
+
+.info {
+    display: flex;
+}
+
+.info-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+
+
+/* End main-content */
+
+/* Start Experience */
+.experience {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 90%;
+    margin: auto;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-weight: bold;
+}
+thead, tfoot {
+    background-color: rgb(228 240 245);
+}
+th, td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+}
+td:last-of-type {
+    text-align: center;
+}
+tbody > tr:nth-of-type(even) {
+    background-color: rgb(237 238 242);
+}
+tfoot th {
+    text-align: right;
+}
+tfoot td {
+    font-weight: bold;
+}
+ 
+/* End experience */
+
+
+
+
+.text-topic {
+    text-align: center;
+}
+
+
+.skill {
+    display: block;
+    /* justify-content: space-around; */
+    width: 500px;
+
+}
+
+
+
+
+footer {
+    background-color: #822B68;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
