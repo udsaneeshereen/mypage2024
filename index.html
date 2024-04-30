@@ -1,44 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Udsanee</title>
-  </head>
-  <body>
-    <img src="NeeImage.jpg" alt="" style="width: 20%; height: auto" />
-    <h1>Udsanee Pakdeetrakulwong</h1>
-    <a href="https://www.npru.ac.th"> ไปยังเว็บไซต์ของหน่วยงาน </a> <br />
-    <a href="contact.html"> Contact </a>
-    <link rel="stylesheet" href="styles.css" />
-    <h3>ประสบการณ์การทำงาน</h3>
-    <!-- comments
-    <ul>
-      <li>2010-Present NPRU University</li>
-      <li>2002-2012 SKRU university</li>
-      <li>1997-2002 KCS</li>
-    </ul>
--->
-    <!-- ทำให้ list นำเสนอออกมาเป็น table-->
-    <table>
-      <thead>
-        <tr>
-          <th>Year</th>
-          <th>Work Place</th>
-        </tr>
-      </thead>
-      <tr>
-        <td>2010-Present</td>
-        <td>NPRU University</td>
-      </tr>
-      <tr>
-        <td>2002-2012</td>
-        <td>SKRU University</td>
-      </tr>
-      <tr>
-        <td>1997-2002</td>
-        <td>KCS</td>
-      </tr>
-    </table>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My biography</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/nee.png" alt="" style="border-radius: 50%; width: 30px; margin-right: 10px;">
+                <h1 style="color: aliceblue;">Udsanee WEB</h1>
+            </div>
+            <div >
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#ed">Education</a></li>
+                    <li><a href="#ex">Experience</a></li>
+                    <li><a href="#sk">Skill</a></li>
+                    <li><a href="#co">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    
+    <div class="main-content">
+        <div class="box info">
+                <img src="images/nee.png" alt="" class="info-image">
+                <div>
+                    <p style="color: #9457ea; font-size: 32px; font-weight: bold;">Miss Udsanee Pakdeetrakulwong</p>
+                    <p>Software Engineering Program, Science and Technology Faculty</p>
+                    <p>Nakhon Pathom Rajabhat University</p>    
+                </div>               
+        </div>
+
+        <div class="box">
+            <h2 id="sk" class="text-topic">Education</h2>
+            <ul>
+                <li>Phd. in Information Systems, Curtin University -- [2017]</li>
+                <li>MSc. in Information Technology, RIT -- [2002]</li>
+                <li>BSc. in Statistics, Chulalongkorn University -- [1997]</li>
+            </ul>
+        </div>
+
+        <div class="box ">
+                <h2 id="ex" class="text-topic">Experiences</h2>
+                <div class="experience">
+                    <table>
+                        <tr>
+                            <th>Year</th>
+                            <th>Place</th>
+                        </tr>
+                        <tr>
+                            <td>2017-Present</td>
+                            <td style="width: 400px;">Nakhon Pathom Rajabhat University</td>
+                        </tr>
+                        <tr>
+                            <td>2014-2015</td>
+                            <td>Curtin University, Australia</td>
+                        </tr>
+                        <tr>
+                            <td>2009-2012</td>
+                            <td>Nakhon Pathom Rajabhat University</td>
+                        </tr>
+                        <tr>
+                            <td>1999-2009</td>
+                            <td>Songkhla Rajabhat University</td>
+                        </tr>
+                    </table>
+                </div>
+        </div>
+        <div class="box">
+            <h2 id="sk" class="text-topic">Skills</h2>
+            <p>
+                <ul class="skill">
+                    <li>JAVA</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Bootstrap</li>
+                    <li>Figma</li>
+                    <li>Adobe XD</li>
+                    <li>MySQL</li>
+                    <li>PHP</li>
+                </ul>
+            </p>
+        </div>
+
+        <div class="box">
+            <h2 id="sk" class="text-topic">Contact</h2>
+            <p>
+                <b>Office :</b> Nakhon Pathom Rajabhat University <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                85 Malaiman Rd. Meung Nakhon Pathom 73000<br> 
+            </p>
+            <b>Mobile :</b> 0649313668 <br>
+            <b>Email :</b> udsanee@webmail.npru.ac.th<br> 
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&COPY; Copyright by Udsanee 2024 <br>
+           Software Engineering Program.  Science and Technology Faculty <br>
+           Nakhon Pathom Rajabhat University</p>
+    </footer>
+
+</body>
 </html>
